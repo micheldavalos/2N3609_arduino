@@ -8,8 +8,33 @@
 #include <Arduino.h>
 
 class Switch {
+    int8_t _pin;
+
+public:
+    /*!
+     *
+     * @param pin - Digital PIN to controll switch on/off
+     */
+    Switch(int8_t pin) {
+        _pin = pin;
+        pinMode(_pin, OUTPUT);
+        off();
+    }
+/*!
+ * Switch on
+ */
+    void on() {
+        digitalWrite(_pin, LOW);
+    }
+
+    /*!
+     * Switch off
+     */
+     void off() {
+        digitalWrite(_pin, HIGH);
+    }
 
 };
 
 
-#endif //RINCONZAPATISTA_SWITCH_H
+#endif //SWITCH_H
