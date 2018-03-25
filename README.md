@@ -8,6 +8,7 @@ Switch switch(2); /// Digital PIN control
 ...
 swicth.on(); /// Turn on
 switch.off(); /// Turn off
+```
 
 ![2N3609 Hardware Use](https://hetpro-store.com/TUTORIALES/wp-content/uploads/2015/03/Captura.jpg?x18372)
 
