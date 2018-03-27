@@ -24,14 +24,14 @@ public:
  * Switch on
  */
     void on() {
-        digitalWrite(_pin, LOW);
+        digitalWrite(_pin, HIGH);
     }
 
     /*!
      * Switch off
      */
      void off() {
-        digitalWrite(_pin, HIGH);
+        digitalWrite(_pin, LOW);
     }
 
 };
