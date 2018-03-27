@@ -1,5 +1,5 @@
-# 2N3609_arduino
-Libreria para controlar el transistor 2N3609
+# 2N4401_arduino
+Libreria para controlar el transistor 2N4401
 
 ```c++
 #include <Switch.h>
